@@ -1,0 +1,52 @@
+header{
+    width: 100%;
+    margin: 20px auto;
+    height: 120px;
+}
+
+header .heading{
+    font-size: 26px;
+    color: brown;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+header .headerLogo{
+    width: 30%;
+    float: left;
+    position: relative;
+}
+header .headerLogo a img{
+    width: 160px;
+    height: 90px;
+}
+header .headerLogo a{
+    padding: 0;
+}
+header .headerLogo a span{
+    padding: 0;
+    position: absolute;
+    top: 27%;
+    left: 27%;
+    font-size: 30px;
+    color: darkgray;
+    font-weight: bold;
+}
+header nav{
+    height: 70px;
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+header nav ul{
+    list-style-type: none;
+    width: 30%;
+    float: right;
+}
+header nav ul li{
+    float: left;
+    padding: 10px 20px;
+}
+header nav ul li .myActive{
+    color: green;
+}

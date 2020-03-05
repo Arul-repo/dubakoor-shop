@@ -1,0 +1,30 @@
+.FormSection{
+    width: 94%;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding-left: 50px;
+}
+.FormSection h2{
+    padding: 30px 5px;
+}
+.FormSection > div{
+    margin: 10px;
+    width: 30%;
+}
+.FormSection > div label{
+    width: 30%;
+    float: left;
+}
+.FormSection button{
+    width: 8%;
+    padding:8px;
+}
+.FormSection > div > input{
+    width: 65%;
+    padding: 6px;
+}
+.FormSection > div > textarea{
+    width: 65%;
+    padding: 6px;
+}

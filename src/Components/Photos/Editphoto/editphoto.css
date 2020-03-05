@@ -1,0 +1,26 @@
+.editSection{
+    width: 90%;
+    margin: auto;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    padding: 40px 0;
+    text-align: center;
+}
+.itemsDetails{
+    width: 40%;
+    margin: auto;
+}
+
+.itemsDetails span{
+    cursor: pointer;
+    color: blue;
+}
+h3{
+    text-align: center;
+}
+span{
+    padding: 20px 10px;
+}
+.itemsDetails span.deleteItem{
+    color: red;
+}
